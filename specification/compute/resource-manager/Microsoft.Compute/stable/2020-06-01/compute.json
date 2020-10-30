@@ -9393,7 +9393,7 @@
         },
         "hyperVGeneration": {
           "$ref": "#/definitions/HyperVGenerationType",
-          "description": "Gets the HyperVGenerationType of the VirtualMachine created from the image"
+          "description": "Specifies the HyperVGenerationType of the VirtualMachine created from the image. This propery might be required if not available from the blob or disk resource."
         }
       },
       "description": "Describes the properties of an Image."
